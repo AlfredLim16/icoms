@@ -1,0 +1,42 @@
+.sidebar,
+#btnApply,
+.preset,
+#fromDate,
+#toDate,
+.dropdown,
+.navbar,
+.btn {
+    display: none !important;
+}
+
+body {
+    background: #fff !important;
+}
+
+.app {
+    display: block !important;
+}
+
+main {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+#reportPrintArea {
+    display: block !important;
+}
+
+.card {
+    box-shadow: none !important;
+    border: 1px solid #dee2e6 !important;
+    page-break-inside: avoid;
+}
+
+canvas {
+    max-height: 240px !important;
+}
+
+@page {
+    margin: 1cm;
+    size: A4;
+}

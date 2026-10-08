@@ -1,0 +1,105 @@
+html,
+body {
+    font-family: 'Lexend', system-ui, -apple-system, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+h5 {
+    font-weight: 600;
+}
+
+h6 {
+    font-weight: 600;
+}
+
+p,
+li,
+td,
+th,
+label,
+span,
+div {
+    font-weight: 300;
+}
+
+input,
+select,
+textarea,
+button,
+.btn {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+
+small,
+.small,
+.text-muted {
+    font-weight: 300;
+}
+
+strong,
+b {
+    font-weight: 600;
+}
+
+a {
+    font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background: #0f1419;
+        color: #e4e6eb;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #f5f7fa;
+    }
+
+    .text-muted {
+        color: #8a92a3 !important;
+    }
+
+    .text-dark {
+        color: #f5f7fa !important;
+    }
+}
